@@ -11,10 +11,26 @@ evaluation_report.json
 # Local environments and secrets
 .env
 .env.*
+!.env.example
 *.local
 credentials.json
 *.pem
 *.key
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE artifacts
+.vscode/
+.idea/
 
 # Local data and knowledge store
 data/knowledge/
